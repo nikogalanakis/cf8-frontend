@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Welcome } from './welcome';
+import { Step9ReativeForms } from './step9-reative-forms';
 
-describe('Welcome', () => {
-  let component: Welcome;
-  let fixture: ComponentFixture<Welcome>;
+describe('Step9ReativeForms', () => {
+  let component: Step9ReativeForms;
+  let fixture: ComponentFixture<Step9ReativeForms>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Welcome]
+      imports: [Step9ReativeForms]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Welcome);
+    fixture = TestBed.createComponent(Step9ReativeForms);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
